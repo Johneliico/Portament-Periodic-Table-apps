@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PeriodicTableView">
+        <attr name="title" format="string" />
+        <attr name="fgColor" format="color" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ImageButton">
+        <attr name="iconWikipedia" format="reference" />
+        <attr name="iconVideo" format="reference" />
+    </declare-styleable>
+</resources>

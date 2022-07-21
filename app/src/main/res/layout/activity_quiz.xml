@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:background="#0066ff"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!-- Create a TextView to show the title. -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:text="Periodic Table"
+        android:textSize="40dp" />
+    <!-- Create an ImageButton for starting the game. -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="332dp"
+        android:layout_height="141dp"
+        android:src="@drawable/quizes"/>
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="106dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/pngegg"
+        android:onClick="startGame" />
+    <!-- Also create a TextView to show the text "Play" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Play"
+        android:textSize="40sp"
+        android:textColor="#e8f4f8"
+        android:onClick="startGame" />
+    <!-- Both the ImageButton and the TextView are clickable and once clicked
+    startGame() method in MainActivity will be called. -->
+</LinearLayout>
